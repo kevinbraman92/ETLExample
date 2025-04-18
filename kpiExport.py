@@ -57,7 +57,11 @@ def main():
 
     workbook = load_workbook("KPI Summary.xlsx")
     worksheet = workbook.active
+    date_columns = ['OrderDate', 'PaymentDate']
+    currency_columns = ['Order Total', 'Payment Amount', 'Unpaid Amount']
     for worksheet in workbook.worksheets:
+        helperFunctions.format_currency_columns(worksheet, currency_columns)
+        helperFunctions.format_date_columns(worksheet, date_columns)
         helperFunctions.auto_adjust_columns(worksheet)
 
     workbook.save("KPI Summary.xlsx")
