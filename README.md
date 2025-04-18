@@ -7,6 +7,5 @@ Customer Order Payment Summary
 KPI Summary(Payment Aging Report)
 ![image](https://github.com/user-attachments/assets/d1a5ce1d-1174-4f35-b343-e290ca29cccc)
 
-KPI Summary(KPI Summary Tab)
 ![image](https://github.com/user-attachments/assets/57798e11-7223-467f-8bb9-a0a5cf8b5827)
 
